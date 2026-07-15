@@ -8,10 +8,10 @@
 
 | Nom | Rôle | GitHub | Participation |
 |---|---|---|---|
-| [N'G] | Chef de Projet | dicken-con| Création du dépôt, architecture initiale, Context API (Auth/Theme), Navbar, Layout, validation finale et merge vers `main` |
-| [OUSMANE FALL] | QA  | fallousmanenoreyni-debug| Revue des Pull Requests, tests fonctionnels, vérification responsive validation avant merge vers `dev` |
-| [AICHA DIAKHATE] | Développeur 1 |  samsoudinegadji-rgb| Pages Médicaments, Employés (CRUD, formulaires) |
-| [SAMGOULE GADJI] | Développeur  2 | aicha-coder| Pages Dashboard (graphiques), Profil, Contact, Paramètres |
+| [N'GOMA MABIALA RICKEN JAIBESS ] | Chef de Projet | dicken-con| Création du dépôt, architecture initiale, dossier types, dossier assets, validation finale et merge vers `main` |
+| [OUSMANE FALL] | QA  | fallousmanenoreyni-debug| Revue des Pull Requests, tests fonctionnels, vérification responsive , dossier context, dossier data |
+| [AICHA DIAKHATE] | Développeur 1 |  samsoudinegadji-rgb| dossier pages, dossier hooks|
+| [SAMGOULE GADJI] | Développeur  2 | aicha-coder| dossier composants , dossier layouts  |
 
 ---
 
@@ -39,11 +39,11 @@
 1. Aller dans l'onglet **Settings** du dépôt.
 2. Creer la branche dev 
 3. Dans **settings**, définir **`dev`** comme branche par défaut .
-4.Branch name pattern : mets main ou dev.
-5.Coche Require a pull request before merging.
-6.Coche Require approvals.
-7.Dans Required approvals before merging, mets 2 ou 1.
-8.(Optionnel mais recommandé) Coche Dismiss stale pull request approvals when new commits are pushed.
+4. Branch name pattern : mets main ou dev.
+5. Coche Require a pull request before merging.
+6. Coche Require approvals.
+7. Dans Required approvals before merging, mets 2 ou 1.
+8. (Optionnel mais recommandé) Coche Dismiss stale pull request approvals when new commits are pushed.
 9Clique sur Create ou Save changes.
 
 ## 🔀 Ajout des collaborateurs
@@ -64,7 +64,7 @@ Voici l'historique exact des commandes utilisées pour monter le projet, dans l'
 ```bash
 # 1. Création du projet React
 cd desktop
-git clone https://github.com/ton-pseudo/gestion de pharmacie.git
+git clone https://github.com/ton-pseudo/gestion-de-pharmacie-.git
 npx create-react-app pharmalinks
 cd pharmalinks
 
@@ -150,8 +150,8 @@ pharmalinks/
 
 ```bash
 cd desktop
-git clone https://github.com/ton-pseudo/gestion de pharmacie.git
-cd gestion de pharmacie
+git clone https://github.com/ton-pseudo/gestion-de-pharmacie-.git
+cd gestion-de-pharmacie-
 cd pharmalinks
 ```
 
@@ -197,13 +197,13 @@ git push origin feature/votre-nom
    - Vérifier que c'est bien : `base: dev` ← `compare: feature/votre-nom`
 3. Cliquer sur **Create pull request**.
 
-✅ La Pull Request est envoyée, le QA et le Chef de Projet reçoivent une notification 🔔
+✅ La Pull Request est envoyée, le QA et le Chef de Projet reçoivent une notification 
 
 ---
 
 ## 🔍 Côté QA
 
-1. Recevoir la notification ( GitHub 🔔).
+1. Recevoir la notification ( GitHub ).
 2. Aller dans l'onglet **Pull Requests**.
 3. Tester la fonctionnalité ( vérifier visuellement et fonctionnellement).
 4. Choisir une action :
